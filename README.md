@@ -17,6 +17,7 @@ Polaris Account - Laravel commercial level out of the box SSO account system（�
 
 8.后台使用backpack，通过curd获取、编辑和管理数据。
 
+
 安装步骤
 
 1.解压文件，赋予755权限，nginx配置文件里写入include /hdd/www/wwwroot/域名/public/.nginx.conf;
