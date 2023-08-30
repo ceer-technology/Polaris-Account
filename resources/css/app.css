@@ -1,0 +1,14 @@
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .active {
+        color: #000;
+        font-weight: bold;
+    }
+    .disabled {
+        pointer-events: none
+    }
+}

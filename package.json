@@ -1,0 +1,48 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && vite build --ssr"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.1",
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "@tailwindcss/forms": "^0.5.2",
+    "@tailwindcss/typography": "^0.5.2",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/server-renderer": "^3.2.31",
+    "autoprefixer": "^10.4.7",
+    "axios": "^1.1.2",
+    "laravel-vite-plugin": "^0.7.2",
+    "lodash": "^4.17.19",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.1.0",
+    "vite": "^4.0.0",
+    "vue": "^3.2.31"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/free-brands-svg-icons": "^6.2.1",
+    "@fortawesome/free-regular-svg-icons": "^6.2.1",
+    "@fortawesome/vue-fontawesome": "^3.0.2",
+    "@inertiajs/vue3": "^1.0.6",
+    "assert": "^2.0.0",
+    "lang.js": "^1.1.14",
+    "laravel-mix-serve": "^2.2.2",
+    "laravel-vue-i18n": "^2.3.2",
+    "postcss-purgefonts": "^1.0.2",
+    "vue-simple-password-meter": "^1.3.4",
+    "webpack": "^5.80.0",
+    "webpack-vite-serve": "^0.0.9"
+  },
+  "name": "polaris-account.net",
+  "description": "<p align=\"center\"><a href=\"https://laravel.com\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg\" width=\"400\" alt=\"Laravel Logo\"></a></p>",
+  "version": "1.0.0",
+  "main": "postcss.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

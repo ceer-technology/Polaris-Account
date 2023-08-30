@@ -1,0 +1,37 @@
+<?php
+
+namespace App\Providers;
+
+// use Illuminate\Support\Facades\Gate;
+use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
+use Laravel\Passport\Passport;
+
+class AuthServiceProvider extends ServiceProvider
+{
+    /**
+     * The model to policy mappings for the application.
+     *
+     * @var array<class-string, class-string>
+     */
+    protected $policies = [
+        // 'App\Models\Model' => 'App\Policies\ModelPolicy',
+    ];
+
+    /**
+     * Register any authentication / authorization services.
+     *
+     * @return void
+     */
+    public function boot()
+    {
+        $this->registerPolicies();
+
+        // Passport-Token 生命周期 addMinutes、addHour、addDays
+        // Token 认证的生命周期(过期时间)-有效期1分钟
+        Passport::tokensExpireIn(now()->addMinutes(1));
+        // 刷新 Token 认证的生命周期(过期时间)-有效期1分钟
+        Passport::refreshTokensExpireIn(now()->addMinutes(1));
+        // 个人 Token 认证的生命周期(过期时间)-有效期1分钟
+        Passport::personalAccessTokensExpireIn(now()->addMinutes(1));
+    }
+}
