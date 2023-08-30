@@ -11,6 +11,8 @@ Polaris Account - Laravel commercial level out of the box SSO account system（�
 
 4.使用 laravel Passport 实现基于Oauth的SSO系统，多业务系统自由授牌（含类似微信的授牌页）。
 
+5.支持 pwa
+
 6.智能化的国际化支持，根据用户浏览器语言智能切换语言。
 
 7.完整的后台管理，包含用户管理、权限管理、用户组管理、日志管理，以及注册用户、今日注册用户、未激活邮箱用户、日志的统计。
