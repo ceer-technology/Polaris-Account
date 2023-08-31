@@ -51,7 +51,11 @@ Polaris Account - Laravel commercial level out of the box SSO account system（�
 3.创建 passport 业务端key：运行 php artisan passport:client
 
 关于默认创建超级管理员账户信息
+
 'name' => 'Admin',（用户名）
+
 'email' => 'account@polaris-account.net',（邮箱）
+
 'password' => 'PolarisAccount',（密码）
+
 'role' => 'superAdmin',（权限组）
