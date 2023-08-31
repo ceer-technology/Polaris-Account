@@ -22,21 +22,25 @@ Polaris Account - Laravel commercial level out of the box SSO account system（�
 
 安装步骤
 
-1.解压文件，赋予755权限，nginx配置文件里写入include /hdd/www/wwwroot/域名/public/.nginx.conf;
+1.解压文件，赋予755权限
 
-2.运行 composer install
+2.nginx配置文件里写入include /域名/public/.nginx.conf;
 
-3.运行 npm install
+3.设置 /public 为执行目录
 
-4.运行 npm run build
+4.运行 composer install （安装composer包）
 
-5.编辑 env 文件，填写正确信息
+5.运行 npm install （安装node，安装完成后使用 node -v 查看node版本，确保node版本为18.x）
 
-6.运行 php artisan key:generate 生成key
+6.运行 npm run build （编译前端）
 
-7.运行 php artisan config:cache && php artisan view:clear && php artisan cache:clear && php artisan route:cache
+7.编辑 env 文件，填写正确信息
 
-8.运行 php artisan migrate:fresh --seed
+8.运行 php artisan key:generate 生成key
+
+9.运行 php artisan config:cache && php artisan view:clear && php artisan cache:clear && php artisan route:cache
+
+10.运行 php artisan migrate:fresh --seed
 
 配置passport（SSO）
 
