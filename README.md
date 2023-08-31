@@ -1,4 +1,4 @@
-![6428e59e61c0bc1359637802acab5603](https://github.com/ceer-technology/Polaris-Account/assets/33198997/2afe8f73-dfec-4bdd-b649-ecef37a5b4c2)# Polaris-Account
+# Polaris-Account
 Polaris Account - Laravel commercial level out of the box SSO account system（北极星 - laravel 商业级开箱即用SSO账户系统）
 
 demo:[polaris.indieclub.net](https://polaris.indieclub.net/)
@@ -15,9 +15,11 @@ demo:[polaris.indieclub.net](https://polaris.indieclub.net/)
 
 ![8eb2314d686b800097fcf56a500ee8cc](https://github.com/ceer-technology/Polaris-Account/assets/33198997/a9dd9e3f-c45b-4800-b13a-6683f73b2bd4)
 
+![6428e59e61c0bc1359637802acab5603](https://github.com/ceer-technology/Polaris-Account/assets/33198997/cf155680-4d9d-4a99-9476-a9e77b977689)
+
 ![53bef189953268522b57ee30df20b078](https://github.com/ceer-technology/Polaris-Account/assets/33198997/7084fec7-635f-47a6-92d3-bb8af62d5a9e)
 
-![6428e59e61c0bc1359637802acab5603](https://github.com/ceer-technology/Polaris-Account/assets/33198997/cf155680-4d9d-4a99-9476-a9e77b977689)
+![be9a176ab61bb8abacd70e9e579f0d19](https://github.com/ceer-technology/Polaris-Account/assets/33198997/db3952d1-c171-4584-bffd-db20de70d3e3)
 
 
 目前实现的功能
