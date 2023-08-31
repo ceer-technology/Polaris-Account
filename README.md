@@ -1,6 +1,16 @@
 # Polaris-Account
 Polaris Account - Laravel commercial level out of the box SSO account system（北极星 - laravel 商业级开箱即用SSO账户系统）
 
+demo:[polaris.indieclub.net](https://polaris.indieclub.net/)
+
+演示账户
+
+'name' => 'Admin',（用户名）
+
+'email' => 'account@polaris-account.net',（邮箱）
+
+'password' => 'PolarisAccount',（密码）
+
 目前实现的功能
 
 1.完整的账户系统，支持编辑用户资料、更新密码、双重验证、浏览器会话管理、第三方账户绑定与管理、删除账户。
@@ -28,7 +38,7 @@ Polaris Account - Laravel commercial level out of the box SSO account system（�
 
 3.设置 /public 为执行目录
 
-4.运行 composer install （安装composer包）
+4.运行 composer install （安装composer包，非官方源有几率安装失败。）
 
 5.运行 npm install （安装node，安装完成后使用 node -v 查看node版本，确保node版本为18.x）
 
