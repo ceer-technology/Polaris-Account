@@ -34,7 +34,7 @@ Polaris Account - Laravel commercial level out of the box SSO account system（�
 
 6.运行 npm run build （编译前端）
 
-7.编辑 env 文件，填写正确信息
+7.编辑 env 文件，填写正确信息（SESSION_DOMAIN务必正确填写确保数据加密正常，格式参考SESSION_DOMAIN=polaris.indieclub.net）
 
 8.运行 php artisan key:generate 生成key
 
@@ -49,3 +49,9 @@ Polaris Account - Laravel commercial level out of the box SSO account system（�
 2.运行 php artisan passport:keys
 
 3.创建 passport 业务端key：运行 php artisan passport:client
+
+关于默认创建超级管理员账户信息
+'name' => 'Admin',（用户名）
+'email' => 'account@polaris-account.net',（邮箱）
+'password' => 'PolarisAccount',（密码）
+'role' => 'superAdmin',（权限组）
