@@ -47,8 +47,8 @@ demo:[polaris.indieclub.net](https://polaris.indieclub.net/)
 
 2.nginx配置文件里写入include /域名/public/.nginx.conf;
 
-3.设置 /public 为执行目录，编辑 /public
-/.user.ini ，确保 open_basedir= 为当前实际目录。
+3.设置 /public 为执行目录；编辑 /public
+/.user.ini ，确保 open_basedir= 为当前实际目录。（如无需防跨站可删除此文件。部分面板有相关防跨站配置，删除此文件避免冲突。）
 
 4.运行 composer install （安装composer包，非官方源有几率安装失败。）
 
