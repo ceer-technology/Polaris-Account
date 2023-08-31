@@ -71,6 +71,9 @@ demo:[polaris.indieclub.net](https://polaris.indieclub.net/)
 
 3.创建 passport 业务端key：运行 php artisan passport:client
 
+![ab0e7d3651c3af2368f37a60fb2ea240](https://github.com/ceer-technology/Polaris-Account/assets/33198997/732ff77a-c764-4594-b5fc-1083b8fe8bfa)
+
+
 关于默认创建超级管理员账户信息
 
 'name' => 'Admin',（用户名）
