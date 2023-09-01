@@ -26,7 +26,7 @@ demo:[polaris.indieclub.net](https://polaris.indieclub.net/)
 
 1.完整的账户系统，支持编辑用户资料、更新密码、双重验证、浏览器会话管理、第三方账户绑定与管理、删除账户。
 
-2.前后端分离，前端基于vue3 + Tailwind + inertia ，单次加载小于200ms，性能极速。
+2.前后端分离，前端基于vue3 + Tailwind + inertia ，单次加载少于200ms，性能极速。
 
 3.为 laravel Octane Swoole 构建，安装配置Octane Swoole解锁完整版性能。
 
