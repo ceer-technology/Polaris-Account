@@ -60,9 +60,9 @@ demo:[polaris.indieclub.net](https://polaris.indieclub.net/)
 
 8.运行 php artisan key:generate 生成key
 
-9.运行 php artisan config:cache && php artisan view:clear && php artisan cache:clear && php artisan route:cache
+9.运行 php artisan config:cache && php artisan view:clear && php artisan cache:clear && php artisan route:cache （清除所有缓存）
 
-10.运行 php artisan migrate:fresh --seed
+10.运行 php artisan migrate:fresh --seed （导入数据库）
 
 配置passport（SSO）
 
